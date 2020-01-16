@@ -1,6 +1,5 @@
 # Decorator for ruuning async functions
-This decorator runs async function like sync function by running it in event loop. 
-I created it when I start to use asyncio and aiohttp. And try to test it by unittest...
+This decorator runs async function like sync function by running it in event loop. I created it when I start to use asyncio and aiohttp. And tryed to test it by unittest...
 
 Examples:
 
