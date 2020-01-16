@@ -1,14 +1,14 @@
 # Decorator for ruuning async functions
-This decorator runs async def like simple def by running it in loop. 
-I created it when I start to use asyncio and aiohttp.
+This decorator runs async function like sync function by running it in loop. 
+I created it when I start to use asyncio and aiohttp. And try to test it...
 
-It's nice for simple tests like:
+Examples:
 
 ```python
 @with_loop
-async def go_async(arg):
-    print(arg)
-    await asyncio.sleep(arg)
+async def go_async(n: int) -> None:
+    print(n)
+    await asyncio.sleep(n)
 
 go_async(10)
 ```
